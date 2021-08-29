@@ -1,0 +1,13 @@
+[Unit]
+Description=happyn edge
+Requires=network.target
+
+[Service]
+User=root
+ExecStart=/usr/local/bin/edge /etc/edge.conf -f
+RestartSec=10
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
+
