@@ -1,10 +1,10 @@
 [Unit]
-Description=happyn edge
+Description=happynet linux client
 Requires=network.target
 
 [Service]
 User=root
-ExecStart=/usr/local/bin/edge /etc/edge.conf -f
+ExecStart=/usr/local/bin/happynet /etc/happynet.conf -f
 RestartSec=10
 Restart=on-failure
 
