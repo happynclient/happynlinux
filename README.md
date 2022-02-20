@@ -128,4 +128,4 @@ sudo ip addr
 
 * 还有其它问题？
 
-没关系，请到我们的[交流论坛](https://forum.happyn.cc/t/windows)向我们反馈问题，谢谢您的包容和支持！
+没关系，请到我们的[交流论坛](https://forum.happyn.cn/t/windows)向我们反馈问题，谢谢您的包容和支持！
