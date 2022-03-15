@@ -112,6 +112,21 @@ sudo ip addr
 
 8. 五分钟后，刷新您的Web后台，此设备会自动记录到Web界面中
 
+## Docker方式运行
+
+#### 命令格式:
+
+```
+docker run -d --privileged --net=host --name happynet happyn/happynet happynet -a <ip> -c <服务ID> -k <服务密钥> -l <服务器地址>:<端口>-f
+```
+
+#### 示例
+
+```
+docker run -d --privileged --net=host --name happynet registry.cn-hangzhou.aliyuncs.com/happyn/happynet:0.5 happynet -a 10.9.9.1 -c VIP0xxxx -k mypass -l vip00.happn.cc:40000 -f
+```
+
+
 ## FAQ:
 
 * 客户端支持哪些平台?
