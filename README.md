@@ -123,7 +123,7 @@ docker run -d --privileged --net=host --name happynet happyn/happynet happynet -
 #### 示例
 
 ```
-docker run -d --privileged --net=host --name happynet happyn/happynet happynet -a 10.9.9.1 -c VIP0xxxx -k mypass -l vip00.happn.cc:40000 -f
+docker run -d --privileged --net=host --name happynet happyn/happynet happynet -a 10.9.9.1 -c VIP0xxxx -k mypass -l vip00.happyn.cc:40000 -f
 ```
 
 
