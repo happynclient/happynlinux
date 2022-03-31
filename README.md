@@ -1,6 +1,6 @@
 ## 简介
 
-happynet是happyn.cc 提供的组建虚拟局域网的客户端工具， 这是Linux版本;
+happynet是happyn.cn 提供的组建虚拟局域网的客户端工具， 这是Linux版本;
 
 ## 系统支持
 
@@ -10,7 +10,7 @@ linux-x86/ linux-x64
 
 项目基于[N2N](https://github.com/happynlab/n2n)
 
-upstream form n2n 2.9.0 linux build by happyn.cc
+upstream form n2n 2.9.0 linux build by happyn.cn
 
 ## 安装
 

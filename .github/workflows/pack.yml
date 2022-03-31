@@ -29,8 +29,8 @@ jobs:
       - name: Create Release
         uses: ncipollo/release-action@v1.5.0
         with:
-          artifacts: "happynet-linux-x86-x64-static-all-*.tar.gz"
+          artifacts: "happynet-linux-x86-x64-dynamic-all-*.tar.gz"
           release_name: happynet linux ${{ github.ref }} Release
           token: ${{ secrets.RElEASE_TOKEN }}
           body: |
-              build by happyn.cc
+              build by happyn.cn
