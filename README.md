@@ -19,7 +19,7 @@ upstream form n2n 2.9.0 linux build by happyn.cc
 2. 解压安装包
 
 ```
-tar zxvf happynet-linux-x86-x64-static-all-0.2.tar.gz
+tar zxvf happynet-linux-x86-x64-dynamic-all-0.2.tar.gz
 ```
 
 3. 默认包含x64及x86两个平台，选择您所在的平台拷贝文件即可(如果不确定，选择x86即可)
