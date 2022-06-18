@@ -10,7 +10,7 @@ linux-x86/ linux-x64
 
 项目基于[N2N](https://github.com/happynlab/n2n)
 
-upstream form n2n 2.9.0 linux build by happyn.cn
+upstream form n2n 3.0.0 linux build by happyn.cn
 
 ## 安装
 
