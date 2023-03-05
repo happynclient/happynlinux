@@ -5,5 +5,5 @@ ENV TZ=Asia/Shanghai
 RUN apt update && apt install tzdata -y && \
     ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-COPY bin/docker/happynet /usr/bin/
+COPY bin/docker/amd64/happynet /usr/bin/
 CMD ["/usr/bin/happynet", "-z1", "-f"]
